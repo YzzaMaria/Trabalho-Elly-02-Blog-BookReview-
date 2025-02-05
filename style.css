@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 80%;
     margin: auto;
@@ -13,14 +12,12 @@ body {
     border-radius: 5px;
     box-shadow: 0px 0px 5px gray;
 }
-
 header {
     text-align: center;
     background: #00796b;
     color: white;
     padding: 15px;
 }
-
 nav {
     margin-top: 10px;
 }
@@ -30,11 +27,9 @@ nav a {
     color: white;
     margin: 0 10px;
 }
-
 main {
     padding: 20px;
-}
-
+} 
 article {
     background: #f9f9f9;
     padding: 15px;
@@ -42,21 +37,17 @@ article {
     border-radius: 5px;
     border-left: 5px solid #00796b;
 }
-
 h2 {
     color: #00796b;
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
 }
-
 table, th, td {
     border: 1px solid #00796b;
     padding: 8px;
 }
-
 footer {
     text-align: center;
     background: #00796b;
