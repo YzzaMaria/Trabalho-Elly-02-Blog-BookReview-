@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookReview - Resenhas de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BookReview</h1>
+            <p>Um blog simples para resenhas de livros populares</p>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Resenhas</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2>Formatação de Textos</h2>
+                <p><strong>Data:</strong> 10/02/2025</p>
+                <p>Podemos usar <b>negrito</b>, <i>itálico</i> e <u>sublinhado</u> para destacar palavras.</p>
+                <p style="color: blue;">Este é um texto azul!</p>
+            </article>
+
+            <article>
+                <h2>Imagens e Links</h2>
+                <p><strong>Data:</strong> 11/02/2025</p>
+                <img src="./imagens(livros)/pequeno príncipe" alt="Capa do livro" width="200">
+                <p>Veja mais sobre esse livros <a href="https://www.amazon.com.br" target="_blank">aqui</a>.</p>
+            </article>
+
+            <article>
+                <h2>Listas</h2>
+                <p><strong>Data:</strong> 12/02/2025</p>
+                <ul>
+                    <li>O Pequeno Príncipe</li>
+                    <li>The Hobbit</li>
+                    <li>1984</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Tabelas</h2>
+                <p><strong>Data:</strong> 13/02/2025</p>
+                <table border="1">
+                    <tr>
+                        <th>Livro</th>
+                        <th>Autor</th>
+                    </tr>
+                    <tr>
+                        <td>1984</td>
+                        <td>George Orwell</td>
+                    </tr>
+                    <tr>
+                        <td>The Hobbit</td>
+                        <td>J.R.R. Tolkien</td>
+                    </tr> 
+                    <tr> 
+                    <td>O pequeno Principe</td>
+                    <td>Antonie de Saint-Exupéry</td>
+                  </tr> 
+                  <tr> 
+                    <td>Harry Potter-E a Pedra Filosofal</td>
+                    <td>J.K Rowling</td>
+                  </tr>
+                  <tr> 
+                    <td>The Great Gatsby</td>
+                    <td>F.scott Fitzgerald</td>
+                  </tr>
+                </table>
+            </article>
+
+            <article>
+                <h2>Formulário de Contato</h2>
+                <p><strong>Data:</strong> 14/02/2025</p>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 BookReview. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
